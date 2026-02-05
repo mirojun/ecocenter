@@ -49,33 +49,34 @@
 <body>
 
     <!-- 헤더 -->
-    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200 h-20 flex items-center justify-between px-6 max-w-7xl mx-auto w-full">
-        <div class="flex items-center gap-2 text-primary-600 font-bold text-xl">
-            <span>🌿</span> 에코왕곡교육센터
-        </div>
-        <div class="text-sm text-gray-500 font-medium">2026 장애인 맞춤형 치유프로그램</div>
-    </header>
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200 h-20 flex items-center justify-between px-6 max-w-7xl mx-auto w-full">
+    <div class="flex items-center gap-2 text-primary-600 font-bold text-xl">
+        <span>🌿</span> 에코왕곡교육센터
+    </div>
+    <div class="text-sm text-gray-500 font-medium">2026 장애인 맞춤형 치유프로그램</div>
+</header>
 
-    <!-- 메인 배너 -->
-    <section class="relative h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
-        <div class="absolute inset-0 z-0 img-box">
-            <!-- [설정] 파일명: main.jpg -->
-            <img src="main.jpg" alt="메인 배너 사진">
-            <div class="absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/80"></div>
-        </div>
-        
-        <div class="relative z-10 max-w-4xl mx-auto">
-            <span class="inline-block py-1 px-4 rounded-full bg-white/60 backdrop-blur-sm text-primary-600 text-sm font-bold mb-6 border border-white/50 shadow-sm">
-                2026 SEASON
-            </span>
-            <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-sm" style="text-shadow: 0 2px 10px rgba(255,255,255,0.5);">
-                자연이 건네는 따뜻한 위로
-            </h2>
-            <p class="text-gray-900 text-lg sm:text-2xl font-semibold leading-relaxed bg-white/60 backdrop-blur-md rounded-full px-8 py-3 inline-block shadow-md">
-                흙을 만지고 꽃향기를 맡으며 오감으로 치유하는 특별한 시간
-            </p>
-        </div>
-    </section>
+<!-- 메인 배너 -->
+<section class="relative h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
+    <div class="absolute inset-0 z-0 img-box">
+        <!-- [설정] 파일명: main.jpg -->
+        <img src="main.jpg" alt="메인 배너 사진" class="object-cover w-full h-full">
+        <div class="absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/80"></div>
+    </div>
+    
+    <div class="relative z-10 max-w-4xl mx-auto">
+        <span class="inline-block py-1 px-4 rounded-full bg-white/60 backdrop-blur-sm text-primary-600 text-sm font-bold mb-6 border border-white/50 shadow-sm">
+            2026 SEASON
+        </span>
+        <h2 class="text-5xl sm:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-sm" style="text-shadow: 0 2px 10px rgba(255,255,255,0.5);">
+            자연이 건네는 따뜻한 위로
+        </h2>
+        <p class="text-gray-900 text-lg sm:text-2xl font-semibold leading-relaxed bg-white/60 backdrop-blur-md rounded-full px-8 py-3 inline-block shadow-md">
+            흙을 만지고 꽃향기를 맡으며 오감으로 치유하는 특별한 시간
+        </p>
+    </div>
+</section>
+
 
     <!-- 약속 섹션 -->
     <section class="py-20 max-w-7xl mx-auto px-6">
